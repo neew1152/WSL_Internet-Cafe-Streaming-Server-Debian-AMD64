@@ -1,6 +1,6 @@
 # ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
 
-> **Turn your Windows PC into a lightweight streaming-ready Linux server in minutes – no tech degree required!**
+> **Turn your Windows PC into a lightweight streaming-ready Linux server in minutes (depend on your internet speed/host)**
 
 ---
 
