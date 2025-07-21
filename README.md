@@ -141,8 +141,6 @@ Enjoy your lightweight Linux streaming setup, right inside Windows! ✨
 
 เหมือนที่เพลง Photograph ของ Ed Sheeran กล่าวไว้ :
 
-"And if you hurt me
-
-Well, that's okay, baby, only words bleed
-
-Inside these pages, you just hold me."
+> "And if you hurt me
+> Well, that's okay, baby, only words bleed
+> Inside these pages, you just hold me."
