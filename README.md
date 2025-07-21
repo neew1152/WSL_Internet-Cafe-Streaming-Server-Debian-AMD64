@@ -2,9 +2,7 @@
 
 > **Turn your Windows PC into a lightweight streaming-ready Linux server in minutes (depending on your host/internet speed)**
 
----
-
-## Don't have WSL yet?
+## ❌ Don't have WSL yet?
 
 [Installation and Configuration WSL](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
