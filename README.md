@@ -16,7 +16,7 @@ This project helps you turn your **Windows host** into a mini Linux-based stream
 
 ---
 
-## 🧠 Minimum System Requirements
+## 🧠 Minimum System Requirements for 720p Streaming (YouTube/Netflix Passed)
 
 You don't need a supercomputer. Here's what your WSL should have:
 
