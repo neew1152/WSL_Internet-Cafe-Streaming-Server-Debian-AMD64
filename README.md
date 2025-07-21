@@ -4,6 +4,12 @@
 
 ---
 
+## Don't have WSL yet?
+
+[Installation and Configuration WSL](https://github.com/neew1152/Installation-and-Configuration-WSL)
+
+---
+
 ## 🎓 What is this?
 
 This project helps you turn your **Windows host** into a mini Linux-based streaming or browsing server, using something called **WSL** (Windows Subsystem for Linux). You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows.
