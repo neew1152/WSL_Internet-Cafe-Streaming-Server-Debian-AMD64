@@ -59,7 +59,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire
 ```
 
 Explanation of the command:
-*   sudo apt update && sudo apt upgrade -y: Updates the package lists and upgrades all installed packages.
+*   `sudo apt update && sudo apt upgrade -y`: Updates the package lists and upgrades all installed packages.
 *   sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y: Installs core packages:
     *   flatpak: Universal software deployment system.
     *   htop: Interactive process viewer.
