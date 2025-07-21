@@ -1,6 +1,6 @@
 # ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
 
-Turn your Windows PC into a lightweight streaming-ready Linux server in minutes (depending on your host & internet connection speed).
+Turn your WSL into a lightweight streaming-ready Linux server in minutes (depending on your host & internet connection speed).
 
 ---
 
@@ -12,7 +12,7 @@ Turn your Windows PC into a lightweight streaming-ready Linux server in minutes 
 
 ## 🎓 What is this?
 
-This project helps you turn your **Windows host** into a mini Linux-based streaming or browsing server, using something called **WSL** (Windows Subsystem for Linux). You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows.
+This project helps you turn your **WSL** into a mini Linux-based streaming or browsing server. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows host.
 
 ---
 
@@ -31,7 +31,7 @@ You don't need a supercomputer. Here's what your WSL should have:
 
 ## 🛠️ One-Time Installation
 
-Follow these steps **exactly** — just copy and paste each block into **Windows CMD** or **WSL Terminal**, as told. You only need to do this **once**.
+Follow these steps **exactly** — just copy and paste each command into **Windows CMD** or **WSL Terminal**, as told. You only need to do this **once**.
 
 ---
 
