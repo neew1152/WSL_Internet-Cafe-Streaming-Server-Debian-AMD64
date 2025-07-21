@@ -139,4 +139,4 @@ Enjoy your lightweight Linux streaming setup, right inside Windows! ✨
 ---
 ---
 
-เธอคงไม่กลับมาเหมือนเดิมแล้วละ ยอมรัมมันเถอะ
+เธอคงไม่กลับมาเหมือนเดิมแล้วละ ยอมรับเถอะ
