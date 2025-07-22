@@ -133,10 +133,6 @@ mstsc.exe && wsl -d Debian
 * If your IP address changes, just run `hostname -I` inside Debian again and use that.
 
 ---
-
-Enjoy your lightweight Linux streaming setup, right inside Windows! ✨
-
----
 ---
 
 เหมือนที่เพลง Photograph ของ Ed Sheeran กล่าวไว้ :
