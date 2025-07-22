@@ -12,7 +12,7 @@ Turn your WSL into a lightweight streaming-ready Linux server in minutes (depend
 
 ## 🎓 What is this?
 
-This project helps you turn your **WSL** into a mini Linux-based streaming or browsing server. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows host.
+This project helps you turn your **WSL** into a Linux-based streaming or browsing server. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows host.
 
 ---
 
