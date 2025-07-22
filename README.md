@@ -145,4 +145,6 @@ Enjoy your lightweight Linux streaming setup, right inside Windows! ✨
 
 > Well, that's okay, baby, only words bleed
 
-> Inside these pages, you just hold me."
+> Inside these pages, you just hold me
+
+> And I won't ever let you go."
