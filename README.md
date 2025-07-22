@@ -46,7 +46,7 @@ wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debia
 This installs a fresh version of **Debian Linux** on your Windows system using WSL.
 
 > **⚠️ VERY IMPORTANT WARNING!**
-> The second command will completely **DELETE** any existing "Debian" Linux installation you have on WSL. If you've never used WSL or Debian before, you have nothing to worry about! If you have, make sure you back up anything you need.
+> The third command will completely **DELETE** any existing "Debian" Linux installation you have on WSL. If you've never used WSL or Debian before, you have nothing to worry about! If you have, make sure you back up anything you need.
 
 ---
 
