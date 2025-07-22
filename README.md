@@ -135,7 +135,7 @@ mstsc.exe && wsl -d Debian
 ---
 ---
 
-เหมือนที่เพลง Photograph ของ Ed Sheeran กล่าวไว้ :
+เหมือนกับที่เพลง Photograph ของ Ed Sheeran กล่าวไว้ :
 
 > "And if you hurt me
 
