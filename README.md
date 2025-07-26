@@ -6,14 +6,14 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 
 ## 🧠 Minimum WSL System Requirements for 720p (YouTube/Netflix Passed)
 
-### [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
-
 | Component | Minimum Requirement |
 |-----------|---------------------|
 | CPU       | 2 – 6 Cores         |
 | RAM       | 512 MB              |
 | Swap      | 1536 MB             |
 | Storage   | 6144 MB             |
+
+### [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
 ---
 
