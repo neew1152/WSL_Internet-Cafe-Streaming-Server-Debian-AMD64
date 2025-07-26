@@ -40,11 +40,8 @@ Follow these steps **exactly** — just copy and paste each command into **Windo
 > Open **Command Prompt (CMD)** as user (or Administrator, if you want) and run:
 
 ```cmd
-wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debian
+wsl --shutdown && wsl --update && wsl --install Debian
 ```
-
-**⚠️ VERY IMPORTANT WARNING!**
-The third command will completely **DELETE** any existing "Debian" Linux installation you have on WSL. If you've never used WSL or Debian before, you have nothing to worry about! If you have, make sure you back up anything you need.
 
 ---
 
