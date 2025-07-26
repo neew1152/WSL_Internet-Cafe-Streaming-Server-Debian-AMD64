@@ -110,13 +110,6 @@ mstsc.exe && wsl -d Debian
 ```
 
 ---
-
-## 📌 Notes
-
-* You **don't need to reinstall** after rebooting — follow the reconnect steps.
-* If your IP address changes, just run `hostname -I` inside Debian again and use that.
-
----
 ---
 
 เหมือนกับที่เพลง Photograph ของ Ed Sheeran กล่าวไว้ :
