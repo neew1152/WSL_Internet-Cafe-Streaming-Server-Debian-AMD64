@@ -99,6 +99,12 @@ Now you can run Firefox or Discord from your Linux desktop!
 
 ## 📴 How to Shut Down the WSL
 
+> From **WSL Terminal**:
+
+```bash
+sudo poweroff
+```
+
 > From **Command Prompt (CMD)**:
 
 ```cmd
