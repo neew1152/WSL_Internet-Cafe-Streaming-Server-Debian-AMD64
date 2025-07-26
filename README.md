@@ -21,13 +21,13 @@ You don't need a supercomputer. Here's what your WSL should have:
 
 ## 🛠️ Installation
 
-Follow these steps — copy and paste each command into **CMD** and **WSL Terminal**, as instructed.
+Follow these steps — copy and paste each command into CMD and WSL Terminal, as instructed.
 
 ---
 
 ### 🪟 Step 1: Install WSL Debian
 
-> Run CMD as user (or Administrator, if you want) and run:
+> Run CMD as user (or Administrator, if you want), run:
 
 ```cmd
 wsl --shutdown && wsl --update && wsl --install Debian
@@ -37,7 +37,7 @@ wsl --shutdown && wsl --update && wsl --install Debian
 
 ### 🐧 Step 2: Set Up Debian (Inside WSL Terminal)
 
-> After Debian installs, the current CMD will connect to the WSL Terminal. Run:
+> After Debian installs, the current CMD will connect to the WSL Terminal, run:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
@@ -61,7 +61,7 @@ Explanation of the command:
 
 ### 💻 Step 3: Connect the Desktop
 
-> After powering off, the current WSL Terminal will reconnect to the CMD. Run:
+> After powering off, the current WSL Terminal will reconnect to the CMD, run:
 
 ```cmd
 mstsc.exe && wsl -d Debian
