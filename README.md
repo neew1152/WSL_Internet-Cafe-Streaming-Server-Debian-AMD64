@@ -12,7 +12,7 @@ Turn your WSL into a lightweight streaming-ready Linux server in minutes (depend
 
 ## 🎓 What is this?
 
-This project helps you turn your **WSL** into a Linux-based streaming or browsing server. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using Windows host.
+This project helps you turn your **WSL** into a Linux-based server for streaming and browsing. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using a Windows host.
 
 ---
 
@@ -23,15 +23,15 @@ You don't need a supercomputer. Here's what your WSL should have:
 | Component | Minimum Requirement |
 |-----------|---------------------|
 | CPU       | 2–4 Cores           |
-| RAM       | 256 MB              |
-| Swap      | 1792 MB             |
+| RAM       | 512 MB              |
+| Swap      | 1536 MB             |
 | Storage   | 6144 MB             |
 
 ---
 
 ## 🛠️ One-Time Installation
 
-Follow these steps **exactly** — just copy and paste each command into **Windows CMD** or **WSL Terminal**, as told. You only need to do this **once**.
+Follow these steps **exactly** — copy and paste each command into **Windows CMD** or **WSL Terminal**, as instructed. You only need to do this **once**.
 
 ---
 
@@ -124,7 +124,7 @@ mstsc.exe && wsl -d Debian
 
 ## 📌 Notes
 
-* You **don't need to reinstall** after rebooting — just follow the reconnect steps.
+* You **don't need to reinstall** after rebooting — follow the reconnect steps.
 * If your IP address changes, just run `hostname -I` inside Debian again and use that.
 
 ---
