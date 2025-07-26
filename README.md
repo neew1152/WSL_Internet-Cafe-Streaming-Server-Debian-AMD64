@@ -93,7 +93,7 @@ wsl --shutdown
 
 ---
 
-## 🔁 How to Reconnect
+## 🔁 How to Reconnect the Desktop
 
 > CMD:
 
