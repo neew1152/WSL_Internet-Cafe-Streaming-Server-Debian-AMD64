@@ -74,9 +74,7 @@ This runs Remote Desktop Connection and reconnects to the WSL Terminal.
 hostname -I && sudo flatpak install flathub org.mozilla.firefox com.discordapp.Discord
 ```
 
-* Copy the IP address from `hostname -I`
-* Paste it into the Remote Desktop Connection window
-* Press Enter — you're in! 🎉
+Copy the IP address from `hostname -I` to the Remote Desktop Connection
 
 ---
 
