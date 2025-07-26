@@ -9,7 +9,7 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 | Component | Minimum Requirement |
 |-----------|---------------------|
 | CPU       | 2 – 6 Cores         |
-| RAM       | 768 MB              |
+| RAM       | 1024 MB             |
 | Swap      | 1536 MB             |
 | Storage   | 6144 MB             |
 
@@ -39,13 +39,12 @@ wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debia
 > After Debian installs, the current CMD will connect to the WSL Terminal, run:
 
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
+sudo apt update && sudo apt upgrade -y && sudo apt install flatpak pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
 ```
 
 *   `sudo apt update && sudo apt upgrade -y`: Updates the package lists and upgrades all installed packages.
 *   `sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y`: Installs core packages:
     *   `flatpak`: Universal software deployment system.
-    *   `htop`: Interactive process viewer.
     *   `pipewire`: Modern audio/video server (important for streaming audio).
     *   `icewm`: Lightweight window manager for a graphical environment.
     *   `x11-utils, x11-xserver-utils, xinit`: X Window System utilities for graphical applications.
