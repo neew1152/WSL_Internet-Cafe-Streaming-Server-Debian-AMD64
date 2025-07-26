@@ -42,7 +42,6 @@ wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debia
 sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
 ```
 
-Explanation of the command:
 *   `sudo apt update && sudo apt upgrade -y`: Updates the package lists and upgrades all installed packages.
 *   `sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y`: Installs core packages:
     *   `flatpak`: Universal software deployment system.
