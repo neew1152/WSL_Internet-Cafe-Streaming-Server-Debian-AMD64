@@ -10,7 +10,7 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 |-----------|---------------------|
 | CPU       | 2 – 6 Cores         |
 | RAM       | 768 MB              |
-| Swap      | 1280 MB             |
+| Swap      | 1536 MB             |
 | Storage   | 6144 MB             |
 
 ### [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
