@@ -8,8 +8,6 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 
 ## 🧠 Minimum System Requirements for 720p (YouTube/Netflix Passed)
 
-You don't need a supercomputer. Here's what your WSL should have:
-
 | Component | Minimum Requirement |
 |-----------|---------------------|
 | CPU       | 2 – 6 Cores         |
