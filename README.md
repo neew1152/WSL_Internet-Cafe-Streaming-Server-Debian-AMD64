@@ -4,9 +4,7 @@ This project helps you turn your **WSL** into a server for streaming and browsin
 
 ---
 
-## ❌ Don't have WSL yet?
-
-[Installation and Configuration WSL](https://github.com/neew1152/Installation-and-Configuration-WSL)
+## [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
 ---
 
