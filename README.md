@@ -29,6 +29,11 @@ Follow these steps — copy and paste each command into CMD and WSL Terminal, as
 wsl --shutdown && wsl --update && wsl --install Debian
 ```
 
+> Clean install, run:
+```cmd
+wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debian
+```
+
 ### 🐧 Step 2: Set Up Debian (Inside WSL Terminal)
 
 > After Debian installs, the current CMD will connect to the WSL Terminal, run:
