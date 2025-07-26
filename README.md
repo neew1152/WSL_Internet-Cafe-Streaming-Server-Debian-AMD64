@@ -29,7 +29,7 @@ Follow these steps — copy and paste each command into **CMD** and **WSL Termin
 
 ---
 
-### 🪟 Step 1: Reset and Install Debian on Windows
+### 🪟 Step 1: Install WSL Debian
 
 > Run **CMD** as user (or Administrator, if you want) and run:
 
