@@ -23,9 +23,9 @@ You don't need a supercomputer. Here's what your WSL should have:
 
 ---
 
-## 🛠️ One-Time Installation
+## 🛠️ Installation
 
-Follow these steps **exactly** — copy and paste each command into **CMD** and **WSL Terminal**, as instructed.
+Follow these steps — copy and paste each command into **CMD** and **WSL Terminal**, as instructed.
 
 ---
 
