@@ -27,7 +27,7 @@ Follow these steps — copy and paste each command into **CMD** and **WSL Termin
 
 ### 🪟 Step 1: Install WSL Debian
 
-> Run **CMD** as user (or Administrator, if you want) and run:
+> Run CMD as user (or Administrator, if you want) and run:
 
 ```cmd
 wsl --shutdown && wsl --update && wsl --install Debian
@@ -67,7 +67,7 @@ Explanation of the command:
 mstsc.exe && wsl -d Debian
 ```
 
-This runs **Remote Desktop Connection** and reconnects to the WSL Terminal.
+This runs Remote Desktop Connection and reconnects to the WSL Terminal.
 
 ---
 
@@ -80,20 +80,20 @@ hostname -I && sudo flatpak install flathub org.mozilla.firefox com.discordapp.D
 ```
 
 * Copy the IP address from `hostname -I`
-* Paste it into the **Remote Desktop Connection** window
-* Press **Enter** — you're in! 🎉
+* Paste it into the Remote Desktop Connection window
+* Press Enter — you're in! 🎉
 
 ---
 
 ## 📴 How to Shut Down
 
-> From **WSL Terminal**:
+> WSL Terminal:
 
 ```bash
 sudo poweroff
 ```
 
-> From **Command Prompt (CMD)**:
+> CMD:
 
 ```cmd
 wsl --shutdown
