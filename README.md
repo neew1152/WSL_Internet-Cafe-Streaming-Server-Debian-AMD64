@@ -1,6 +1,6 @@
 # ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
 
-This project helps you turn the WSL Debian into a server for Discord streaming and Firefox browsing.
+This project turns the WSL Debian into a server for Discord streaming and Firefox browsing.
 
 ### [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
