@@ -2,9 +2,7 @@
 
 This project helps you turn your **WSL** into a server for streaming and browsing. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using a Windows host.
 
----
-
-## [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
+### [❌ Don't have WSL yet?](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
 ---
 
