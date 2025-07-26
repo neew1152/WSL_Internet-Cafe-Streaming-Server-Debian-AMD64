@@ -55,7 +55,7 @@ This installs a fresh version of **Debian Linux** on your Windows system using W
 > After Debian installs, a WSL Terminal will open. Run this full command:
 
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo reboot
+sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
 ```
 
 Explanation of the command:
@@ -70,7 +70,7 @@ Explanation of the command:
 *   `echo icewm-session > ~/.xsession`: Configures IceWM as the default session for XRDP.
 *   `chmod +x ~/.xsession`: Makes the .xsession file executable.
 *   `sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`: Adds the Flathub repository, where many applications are available.
-*   `sudo reboot`: Restarts the WSL Debian distribution to apply changes.
+*   `sudo poweroff`: Power off the WSL Debian distribution to apply changes.
 
 ---
 
