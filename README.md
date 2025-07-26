@@ -1,6 +1,6 @@
 # ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
 
-Turn your WSL into a lightweight streaming-ready Linux server in minutes (depending on your host & internet connection speed).
+This project helps you turn your **WSL** into a server for streaming and browsing. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using a Windows host.
 
 ---
 
@@ -9,12 +9,6 @@ Turn your WSL into a lightweight streaming-ready Linux server in minutes (depend
 [Installation and Configuration WSL](https://github.com/neew1152/Installation-and-Configuration-WSL)
 
 ---
-
-## 🎓 What is this?
-
-This project helps you turn your **WSL** into a Linux-based server for streaming and browsing. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using a Windows host.
-
---- 
 
 ## 🧠 Minimum System Requirements for 720p (YouTube/Netflix Passed)
 
