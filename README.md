@@ -23,8 +23,8 @@ You don't need a supercomputer. Here's what your WSL should have:
 | Component | Minimum Requirement |
 |-----------|---------------------|
 | CPU       | 2–4 Cores           |
-| RAM       | 768 MB              |
-| Swap      | 1024 MB             |
+| RAM       | 256 MB              |
+| Swap      | 1792 MB             |
 | Storage   | 6144 MB             |
 
 ---
