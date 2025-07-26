@@ -6,7 +6,7 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 
 ---
 
-## 🧠 Minimum System Requirements for 720p (YouTube/Netflix Passed)
+## 🧠 Minimum WSL System Requirements for 720p (YouTube/Netflix Passed)
 
 | Component | Minimum Requirement |
 |-----------|---------------------|
