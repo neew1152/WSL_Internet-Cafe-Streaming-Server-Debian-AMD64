@@ -31,13 +31,13 @@ You don't need a supercomputer. Here's what your WSL should have:
 
 ## 🛠️ One-Time Installation
 
-Follow these steps **exactly** — copy and paste each command into **Windows CMD** or **WSL Terminal**, as instructed. You only need to do this **once**.
+Follow these steps **exactly** — copy and paste each command into **CMD** and **WSL Terminal**, as instructed.
 
 ---
 
 ### 🪟 Step 1: Reset and Install Debian on Windows
 
-> Open **Command Prompt (CMD)** as user (or Administrator, if you want) and run:
+> Run **CMD** as user (or Administrator, if you want) and run:
 
 ```cmd
 wsl --shutdown && wsl --update && wsl --install Debian
@@ -47,7 +47,7 @@ wsl --shutdown && wsl --update && wsl --install Debian
 
 ### 🐧 Step 2: Set Up Debian (Inside WSL Terminal)
 
-> After Debian installs, a WSL Terminal will open. Run this full command:
+> After Debian installs, the current CMD will connect to the WSL Terminal. Run:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire icewm x11-utils x11-xserver-utils xinit xrdp xorgxrdp -y && echo icewm-session > ~/.xsession && chmod +x ~/.xsession && sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo && sudo poweroff
@@ -69,21 +69,21 @@ Explanation of the command:
 
 ---
 
-### 💻 Step 3: Open the Linux GUI (Graphical Interface)
+### 💻 Step 3: Connect the Desktop
 
-> After rebooting, open **Command Prompt (CMD)** again and run:
+> After powering off, the current WSL Terminal will reconnect to the CMD. Run:
 
 ```cmd
 mstsc.exe && wsl -d Debian
 ```
 
-This opens **Remote Desktop Connection** and launches Debian in the background.
+This runs **Remote Desktop Connection** and reconnects to the WSL Terminal.
 
 ---
 
-### 🌐 Step 4: Find Your WSL IP & Install Apps
+### 🌐 Step 4: Find WSL IP & Install Apps
 
-> Inside the Debian terminal (which pops up), run:
+> WSL Terminal, run:
 
 ```bash
 hostname -I && sudo flatpak install flathub org.mozilla.firefox com.discordapp.Discord
@@ -97,7 +97,7 @@ Now you can run Firefox or Discord from your Linux desktop!
 
 ---
 
-## 📴 How to Shut Down the WSL
+## 📴 How to Shut Down
 
 > From **WSL Terminal**:
 
@@ -111,20 +111,15 @@ sudo poweroff
 wsl --shutdown
 ```
 
-This safely turns off the Linux system.
-
 ---
 
-## 🔁 How to Reconnect Next Time
+## 🔁 How to Reconnect
 
-> To open your Linux desktop again:
+> CMD:
 
 ```cmd
 mstsc.exe && wsl -d Debian
 ```
-
-* Debian starts in the background
-* Remote Desktop opens — use the same IP from before
 
 ---
 
