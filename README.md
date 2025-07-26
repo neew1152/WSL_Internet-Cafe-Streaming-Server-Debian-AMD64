@@ -87,8 +87,6 @@ hostname -I && sudo flatpak install flathub org.mozilla.firefox com.discordapp.D
 * Paste it into the **Remote Desktop Connection** window
 * Press **Enter** — you're in! 🎉
 
-Now you can run Firefox or Discord from your Linux desktop!
-
 ---
 
 ## 📴 How to Shut Down
