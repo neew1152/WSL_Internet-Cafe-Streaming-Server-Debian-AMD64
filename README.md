@@ -14,7 +14,7 @@ Turn your WSL into a lightweight streaming-ready Linux server in minutes (depend
 
 This project helps you turn your **WSL** into a Linux-based server for streaming and browsing. You can run web apps like **Firefox** and **Discord** inside a simple Linux interface, while still using a Windows host.
 
----
+--- 
 
 ## 🧠 Minimum System Requirements for 720p (YouTube/Netflix Passed)
 
