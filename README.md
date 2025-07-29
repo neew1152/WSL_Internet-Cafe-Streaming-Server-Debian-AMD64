@@ -21,7 +21,7 @@ This project turns the WSL Debian into a server for Discord streaming and Firefo
 
 Follow these steps — copy and paste each command into CMD and WSL Terminal, as instructed.
 
-### 🪟 Step 1: Install WSL Debian
+### 🐧 Step 1: Install WSL Debian
 
 > Run CMD as user (or Administrator, if you want), run:
 
@@ -34,7 +34,7 @@ wsl --shutdown && wsl --update && wsl --install Debian
 wsl --shutdown && wsl --update && wsl --unregister Debian && wsl --install Debian
 ```
 
-### 🐧 Step 2: Set Up Debian (Inside WSL Terminal)
+### 📦 Step 2: Set Up Packages
 
 > After Debian installs, the current CMD will connect to the WSL Terminal, run:
 
@@ -55,7 +55,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire
 *   `sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`: Adds the Flathub repository, where many applications are available.
 *   `sudo poweroff`: Power off the WSL Debian distribution to apply changes.
 
-### 💻 Step 3: Boot and Connect the Desktop
+### 🪟 Step 3: Boot and Connect the Desktop
 
 > After powering off, the current WSL Terminal will reconnect to the CMD, run:
 
