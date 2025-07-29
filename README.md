@@ -1,4 +1,4 @@
-# ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
+ # ☕ WSL_Internet-Cafe-Streaming-Server-Debian-AMD64
 
 This project turns the WSL Debian into a server for Discord streaming and Firefox browsing.
 
@@ -55,7 +55,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install flatpak htop pipewire
 *   `sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`: Adds the Flathub repository, where many applications are available.
 *   `sudo poweroff`: Power off the WSL Debian distribution to apply changes.
 
-### 💻 Step 3: Connect the Desktop
+### 💻 Step 3: Start and Connect the Desktop
 
 > After powering off, the current WSL Terminal will reconnect to the CMD, run:
 
@@ -89,16 +89,6 @@ sudo poweroff
 
 ```cmd
 wsl --shutdown
-```
-
----
-
-## 🔁 How to Reconnect the Desktop
-
-> CMD:
-
-```cmd
-mstsc.exe && wsl -d Debian
 ```
 
 ---
